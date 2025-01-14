@@ -1,0 +1,37 @@
+# Ignore virtual environment directories
+myenv/
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore environment variable files
+.env
+
+# Ignore backup files
+*.bak
+*.dat
+*.dir
+
+# Ignore log files
+*.log
+
+# Ignore folders
+A_Updata_key/
+scripts/
+myenv/
+venv/
+
+
+# Ignore specific files
+character_data.bak
+character_data.dat
+character_data.dir
+profile_data.bak
+profile_data.dat
+profile_data.dir
+
+# Ignore other files generated during use
+folder_contents.txt

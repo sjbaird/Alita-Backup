@@ -1,0 +1,22 @@
+BoxLayout:
+    orientation: 'vertical'
+    ScrollView:
+        size_hint: (1, 0.6)
+        GridLayout:
+            id: chat_layout
+            cols: 1
+            size_hint_y: None
+            height: self.minimum_height
+    TextInput:
+        id: user_input
+        size_hint: (1, 0.1)
+        multiline: False
+        on_text_validate: app.send_message(self)
+    Button:
+        text: "Send"
+        size_hint: (1, 0.1)
+        on_press: app.send_message(self)
+    Button:
+        text: "Suggest Response"
+        size_hint: (1, 0.1)
+        on_press: app.suggest_response(self)

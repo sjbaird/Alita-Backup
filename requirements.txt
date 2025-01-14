@@ -1,0 +1,5 @@
+kivy
+pillow
+transformers
+torch
+pytesseract
